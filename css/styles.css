@@ -143,6 +143,15 @@ li {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/Img-hero-bg.jpg);
+
+  background-position: center;
 }
 .hero-title {
   color: var(--white-color);
@@ -216,14 +225,13 @@ li {
   margin-bottom: 50px;
 }
 .button-list .item {
- 
   box-shadow: var(--box-shadow);
   border-radius: 4px;
 }
-.button-list .item:not(:last-child){
+.button-list .item:not(:last-child) {
   margin-right: 8px;
 }
-.button-list .button{
+.button-list .button {
   padding: 6px 22px;
 }
 
@@ -236,6 +244,18 @@ li {
 .features-list .item {
   width: 270px;
   margin-left: 30px;
+}
+
+.features-list .item::before {
+  display: block;
+  content: '';
+  height: 120px;
+    border-radius: 4px;
+  margin-bottom: 30px;
+   background-color: #f5f4fa;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 
 /* .features-list .item + .item {
@@ -315,8 +335,7 @@ li {
   letter-spacing: 0.03em;
 }
 /* --------------Gallery ------------------*/
-
-.gallery-list {
+.fdd:nth .gallery-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -392,6 +411,6 @@ li {
   font-size: 14px;
   line-height: 1.7;
 }
-.footer-contacts:not(:last-child){
+.footer-contacts:not(:last-child) {
   margin-bottom: 9px;
 }
