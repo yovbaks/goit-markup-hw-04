@@ -182,6 +182,7 @@ li {
 }
 
 /* ---------------- Button -------------  */
+/* ---------------- Button -------------  */
 .button {
   background-color: var(--bgcolor2);
   color: var(--title-color);
@@ -224,7 +225,6 @@ li {
   background-color: var(--bgcolor2);
   color: var(--title-color);
   border-color: var(--bgcolor2);
-
 } */
 .button-list {
   display: flex;
@@ -233,13 +233,14 @@ li {
   margin-bottom: 50px;
 }
 .button-list .item {
+ 
   box-shadow: var(--box-shadow);
   border-radius: 4px;
 }
-.button-list .item:not(:last-child) {
+.button-list .item:not(:last-child){
   margin-right: 8px;
 }
-.button-list .button {
+.button-list .button{
   padding: 6px 22px;
 }
 
@@ -252,18 +253,6 @@ li {
 .features-list .item {
   width: 270px;
   margin-left: 30px;
-}
-
-.features-list .item::before {
-  display: block;
-  content: '';
-  height: 120px;
-  border-radius: 4px;
-  margin-bottom: 30px;
-  background-color: #f5f4fa;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
 }
 
 /* .features-list .item + .item {
@@ -343,7 +332,8 @@ li {
   letter-spacing: 0.03em;
 }
 /* --------------Gallery ------------------*/
-.fdd:nth .gallery-list {
+
+.gallery-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -367,7 +357,6 @@ li {
   margin-bottom: 30px;
   background: #ffffff;
 }
-
 .galery-item:nth-child(3n) {
   margin-right: 0;
 }
@@ -419,6 +408,6 @@ li {
   font-size: 14px;
   line-height: 1.7;
 }
-.footer-contacts:not(:last-child) {
+.footer-contacts:not(:last-child){
   margin-bottom: 9px;
 }
