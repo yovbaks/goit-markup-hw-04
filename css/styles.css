@@ -413,9 +413,8 @@ li {
   letter-spacing: 0.03em;
 }
 .galery-thumb {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  margin: 0 24px;
+  padding: 20px 24px;
+ 
 }
 
 /* --------CLIENTS----------------  */
