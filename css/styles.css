@@ -145,12 +145,12 @@ li {
   justify-content: center;
   align-items: center;
   fill: var(--clients-color);
- 
 }
-.contacts-top a:hover {
+.contacts-top a:hover,
+.contacts-top a:focus {
   fill: var(--theme-color);
 }
-.top-icon{
+.top-icon {
   margin-right: 10px;
 }
 
@@ -355,22 +355,30 @@ li {
   font-size: 16px;
   line-height: 1.2;
   letter-spacing: 0.03em;
+  margin-bottom: 16px;
 }
 
 /* ----------- Comanda button ---------------- */
+.comanda-list-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .comanda-icon {
-  padding: 0;
-  border: none;
-  width: 100px;
-  height: 100px;
-  color: #2196f3;
-  background-color: #teal;
+  display: flex;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  fill: var(--clients-color);
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
 }
-.comanda-icon:hover {
-  color: #757575;
-}
-.soc-icon {
-  fill: currentColor;
+.comanda-icon:hover,
+.comanda-icon:focus {
+  fill: var(--white-color);
+  background-color: var(--theme-color);
+  background-size: 44px;
 }
 
 /* --------------Gallery ------------------*/
@@ -512,9 +520,16 @@ li {
   display: flex;
   width: 44px;
   height: 44px;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.1);
+  fill: var(--white-color);
   border-radius: 50%;
   justify-content: center;
   align-items: center;
-  margin-left: 10px;
+}
+.connect-list .item:not(:last-child) {
+  margin-right: 10px;
+}
+.connect-icon:hover,
+.connect-icon:focus {
+  background-color: var(--theme-color);
 }
