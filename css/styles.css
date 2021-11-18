@@ -140,16 +140,19 @@ li {
 .contacts-top .link:focus {
   color: var(--theme-color);
 }
-/* .contacts-top .link::before {
-  display: block;
-
-  height: 12px;
-  width: 16px;
-
-  content: ' ';
-  background-image: url(..//images/letter.svg);
-} */
-/* ---------------------Hero-----------------  */
+.contacts-top a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: var(--clients-color);
+ 
+}
+.contacts-top a:hover {
+  fill: var(--theme-color);
+}
+.top-icon{
+  margin-right: 10px;
+}
 
 .hero {
   background-color: var(--bgcolor-accent);
@@ -464,10 +467,8 @@ li {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.footer-list{
+.footer-list {
   display: flex;
-  
-
 }
 .footer-logo {
   display: inline-block;
@@ -491,28 +492,23 @@ li {
 .footer-contacts:not(:last-child) {
   margin-bottom: 9px;
 }
-.connect{
+.connect {
   margin-left: 70px;
   padding-top: 7px;
-  
-
 }
-.connect-list{
+.connect-list {
   display: flex;
-
 }
-.connect-title{
-font-weight: 700;
-font-size: 14px;
-line-height: 1.2;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: var(--white-color);
-margin-bottom: 20px;
-
-
+.connect-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--white-color);
+  margin-bottom: 20px;
 }
-.connect-icon{
+.connect-icon {
   display: flex;
   width: 44px;
   height: 44px;
@@ -521,5 +517,4 @@ margin-bottom: 20px;
   justify-content: center;
   align-items: center;
   margin-left: 10px;
-
 }
