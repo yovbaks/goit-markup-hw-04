@@ -463,7 +463,8 @@ li {
   border-radius: 4px;
   border: 1px solid var(--clients-color);
 }
-.icon:hover {
+.icon:hover,
+.icon:focus {
   fill: var(--theme-color);
   border: 1px solid var(--theme-color);
   border-radius: 4px;
