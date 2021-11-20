@@ -358,7 +358,7 @@ li {
   margin-bottom: 16px;
 }
 
-/* ----------- Comanda button ---------------- */
+/* ----------- Comanda icon ---------------- */
 .comanda-list-icon {
   display: flex;
   justify-content: center;
@@ -399,16 +399,17 @@ li {
   background: #ffffff;
   
 }
-.gallery-item:hover,
+/* .gallery-item:hover,
 .gallery-item:focus {
   box-shadow: var(--box-shadows-item);
-}
-
-
-/* .gallery-item-link:hover,
-.gallery-item-link:focus {
-  box-shadow: var(--box-shadows-item);
 } */
+
+
+.gallery-item-link:hover,
+.gallery-item-link:focus {
+  display: block;
+  box-shadow: var(--box-shadows-item);
+}
 
 
 
